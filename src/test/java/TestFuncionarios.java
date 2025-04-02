@@ -1,10 +1,8 @@
-package org.example;
-
 import java.math.BigDecimal;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AppTest {
+class TestFuncionarios {
     @org.junit.jupiter.api.Test
     void testCaixa() {
         Caixa caixa = new Caixa("João", new BigDecimal("2000"));
